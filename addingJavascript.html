@@ -8,5 +8,12 @@
   <script>
     document.getElementById("demo").innerHTML = "I added this text using JavaScript!";
   </script>
+
+  <button id="button1" onClick="myButtonFunction()">Click me!</button>
+  <script>
+    function myButtonFunction() {
+      document.getElementById("button1").innerHTML += "!"; /* the += operator just means to add to the existing value */
+    }
+  </script>
 </body>
 </html>
